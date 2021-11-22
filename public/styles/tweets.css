@@ -1,0 +1,106 @@
+.all-tweets {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 32px;
+  margin-bottom: 100px;
+
+}
+
+.tweet:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.9); 
+}
+
+.tweet {
+  background-color: #eee;
+  position: relative;
+  margin-bottom: 100px;
+  align-items: center;
+  z-index: inherit;
+  border: 5px solid black;
+}
+
+.tweet header {
+  background-color: #eee;
+  display: flex;
+  align-items: flex-start;
+  padding: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.avatar {
+  display: inline-flex;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.user {
+  flex-grow: 1;
+  padding-left: 10px;
+  padding-top: 15px;
+  font-size: 150%;
+  margin: 0;
+  line-height: 200%;
+  font-size: 20px;
+  text-align: left;
+}
+
+.handle {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  color: black;
+  font-size: 20px;
+  line-height: 50%;
+  padding-right: 10px;
+}
+
+.tweet-content {
+  border-bottom: 5px solid black;
+  max-width: 90%;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 55px;
+  padding: 20px;
+}
+
+.tweet-detail {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  white-space: pre-wrap;
+}
+
+footer {
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 80%;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.time-ago {
+  padding-left: 5px;
+}
+
+.icons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 130%;
+  padding: 10px;
+  visibility: hidden;
+}
+
+.fa.fa-star-o:hover:before {
+  content: "\f005";
+  color: gold;
+}
+
+.tweet:hover .icons {
+  visibility: visible;
+}

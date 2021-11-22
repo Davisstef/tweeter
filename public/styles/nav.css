@@ -1,0 +1,31 @@
+span {
+  font-family: Bungee, sans-serif;
+}
+
+nav {
+  background-color: #4056A1;
+  color: #FFFFFF;
+  height: 120px;
+  min-width: 100vw;
+  position: fixed;
+  z-index: 1;
+}
+
+nav #header-content {
+  display: flex;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  padding-top: 1em;
+  font-size: 40px;
+}
+
+nav #prompt {
+  display: flex;
+  margin-top: -2em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  flex-direction: column;
+  float: right;
+  align-items: center;
+  font-size: 20px;
+}

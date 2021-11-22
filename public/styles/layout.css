@@ -1,0 +1,50 @@
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please
+ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/*
+ * Global layout stuff
+ */
+head {
+  font-family: 'Bungee', sans-serif;
+}
+
+body {
+  color: #545149;
+  background-color: #f4f1ec;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+}
+/*
+ * Additional CSS can be defined below or in other CSS files, as per instructions
+ */
+main {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+ /* iPhone */
+ @media only screen and (min-width : 320px) {
+}
+/* Phones */
+@media only screen and (min-width : 480px) {
+  
+}
+/* Tablets */
+@media only screen and (min-width : 768px) {
+}
+/* Desktops */
+@media only screen and (min-width : 992px) {
+}
+/* Wide Screens */
+@media only screen and (min-width : 1200px) {
+}

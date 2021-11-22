@@ -1,0 +1,42 @@
+.container {
+  background-color: #f4f1ec;
+  margin-top: 100px;
+  max-width: 90%;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+}
+
+.container #tweet-text {
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: royalblue;
+  border-width: 5px;
+  font-family: 'Bungee', sans-serif;
+  width: 100%;
+}
+
+::placeholder {
+  color: royalblue;
+}
+
+.container #button {
+  display: flex;
+  font-family: 'Bungee', sans-serif;
+  background: royalblue;
+  color: white;
+  border: none;
+}
+
+#button:active {color:royalblue;}
+
+.container #counter {
+  margin-left: 96%;
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+
+  
+}
