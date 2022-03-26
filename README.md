@@ -12,9 +12,6 @@ This is the main profile section of the Tweeter app. Users can type their tweets
 This is the tweets section of the app. User tweets will appear here.
 <img width="1440" alt="Screen Shot 2022-03-25 at 8 42 44 PM" src="https://user-images.githubusercontent.com/60591525/160217932-e9a51936-4569-4ef8-94d5-19a7b63e4f26.png">
 
-## Features
-
-
 ## Getting Started
 
 1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
@@ -27,3 +24,4 @@ This is the tweets section of the app. User tweets will appear here.
 
 - Express
 - Node 5.10.x or above
+- Body-parser
