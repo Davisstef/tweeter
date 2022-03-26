@@ -25,3 +25,6 @@ This is the tweets section of the app. User tweets will appear here.
 - Express
 - Node 5.10.x or above
 - Body-parser
+- Chance
+- Md5
+- Timeago.js
