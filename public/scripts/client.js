@@ -1,3 +1,5 @@
+// Create, Render, GET and POST tweet functions
+
 var $;
 $(function() {
   const addTweet = {
